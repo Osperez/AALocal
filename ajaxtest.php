@@ -19,8 +19,8 @@
 
 <body>
 
-<div id="panelResults"><h2>Let AJAX change this text</h2></div>
-<button id="aa-toggle-gobttn-trigger">Change Content</button>
+<div id="ajaxCall"><h2>Let AJAX change this text</h2></div>
+<button id="ajaxCallbtn-trigger">Change Content</button>
 
 
 
@@ -33,10 +33,10 @@
 		<script type="text/javascript" src="js/aaPlaceHolder.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-	$("#aa-toggle-gobttn-trigger").click(function(){
+	$("#ajaxCallbtn-trigger").click(function(){
 		$.ajax({
 			url:"test1.txt", success:function(result){
-				$("#panelResults").html(result);
+				$("#ajaxCall").html(result);
 			}
 		});
 	});
