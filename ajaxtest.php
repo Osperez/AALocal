@@ -20,7 +20,7 @@
 <body>
 
 <div id="ajaxCall"><h2>Let AJAX change this text</h2></div>
-<button id="ajaxCallbtn-trigger">Change Content</button>
+<button id="ajaxCallbtn-trigger">Change the Content on DIV</button>
 
 
 
